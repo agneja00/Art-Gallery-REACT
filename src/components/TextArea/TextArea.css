@@ -1,0 +1,31 @@
+.textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.label-textarea {
+    font-weight: bold;
+}
+
+.area,
+.error-area {
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 248, 239);
+}
+
+.error-textarea {
+    color: red;
+}
+
+.error-area {
+    border: 2px solid red;
+}
+
+.area {
+    resize: none;
+}

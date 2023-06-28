@@ -1,0 +1,43 @@
+.art-page-title {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+}
+
+.art-container {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.image {
+    width: 900px;
+} 
+
+.info-about-art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: rgb(64, 52, 37);;
+}
+
+.similar-title {
+    text-align: center;
+    padding: 10px;
+}

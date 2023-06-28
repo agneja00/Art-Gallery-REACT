@@ -1,0 +1,22 @@
+.picture-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.image {
+    width: 50px;
+}
+
+.link-for-art-information {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.link-for-art-information:hover {
+    background-color: wheat;
+    padding: 2px;
+}
